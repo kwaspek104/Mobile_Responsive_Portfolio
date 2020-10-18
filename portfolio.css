@@ -8,16 +8,20 @@
         background-image: url('Light-Gray-Background.jpg');
         }
 
-    .container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-left: 20px;
-    }
 
     .img-thumbnail {
         margin-top: 10px;
         border: 2px solid #dee2e6;; 
     }
-
+footer {
+    margin-top: 50px;
+}
    
+@media screen and (max-width: 575px) {
+
+    .container {
+        padding: 40px;
+    }
+    footer {
+     height: 50px;}
+    }

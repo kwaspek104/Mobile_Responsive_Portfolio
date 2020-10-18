@@ -1,0 +1,29 @@
+.navbar-brand 
+    { 
+    background-color: turquoise;
+    text-emphasis: bold;
+    }
+
+body {
+    background-image: url('Light-Gray-Background.jpg');
+    }
+
+.img {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+article {
+    font-size: 15px;
+}
+
+@media screen and (max-width: 575px) {
+
+    .container {
+        padding: 40px;
+    }
+    
+    footer {
+        height: 50px;}
+    }

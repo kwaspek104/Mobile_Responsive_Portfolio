@@ -3,69 +3,100 @@
 
 <head>
 
-  <style>
-  .navbar-brand 
-  { 
-  background-color: turquoise;
-  color: azure;
-  }
-  </style>
-
   <meta charset="UTF-8">
-  <!-- We need the following responsive meta tag to ensure things scale correctly across varying devices. -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
   <title>Kasper Kuzmicki</title>
-  <!-- We need to bring in the bootstrap CSS -->
-  <link
-    rel="stylesheet"
-    href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-    crossorigin="anonymous"
-  />
-</head>
 
-<body>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="index.css">
+
+</head>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand">Kasper Kuzmicki</a>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link active" href="#">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./contact.html">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
 
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15"
+    aria-controls="navbarSupportedContent15" aria-expanded="false" aria-label="Toggle navigation"><span
+      class="navbar-toggler-icon"></span></button>
 
-    
-  <div class="container">
-
-
+  <div class="collapse navbar-collapse" id="navbarSupportedContent15">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link active" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./portfolio.html">Portfolio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./contact.html">Contact</a>
+      </li>
+    </ul>
   </div>
+</nav>
+
+<body>
+  <br>
+
+  <main>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9" style="background-image: url('pure-white-background.jpg');">
+          <form class="h1 text-left p-3">About Me</p>
+            <div class="row">
+              <div class="col-md-12">
+                <img class="img img-thumbnail" alt="Headshot of site owner" src="./Kasper_Kuzmicki.jpg">
+
+                <article>
+                  <p>Hello! My name is Kasper Kuzmicki and welcome to my website. You will find an ever-growing
+                    portfolio
+                    on the top right corner, as well as a way to contact me.</p>
+
+                  <p>I am currently in a web development class at UCLA-Extension. My goal is to get a great coding job -
+                    that is, if I manage to survive the six-month coding bootcamp!</p>
+
+                  <p>I studied Theatre Arts (not quite a tech background) in City College in New York City. So in
+                    addition
+                    to yelling at my computer screen for my code not working, I also love to act, sing, and write
+                    stories
+                    and plays. Maybe one day I'll write a sonata about the existential dread we all face when we stare
+                    at
+                    barely functional code.</p>
+
+                  <p>Here is a link to my <a href="https://www.linkedin.com/in/kasper-k-b19663192/"
+                      target="_blank">Linkedin Account.</a> More updates to come soon!</p>
+                </article>
+              </div>
+  </main>
+
+  <footer>
+    <body class="d-flex flex-column">
+      <div id="page-content">
+        <div class="container text-center">
+          <div class="row justify-content-center">
+            <div class="col-md-6">
+              <h1 class="font-weight-light mt-4 text-white"></h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer id="sticky-footer" class="py-4 bg-dark text-white-50 fixed-bottom text-center">
+        <div class="container text-center">
+        </div>
+      </footer>
+    </body>
+  </footer>
+
 </body>
 
-  <script
-  src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-  integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-  crossorigin="anonymous"
-></script>
-<script
-  src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-  crossorigin="anonymous"
-></script>
-<script
-  src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-  integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-  crossorigin="anonymous"
-></script>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+  integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+  integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
 </html>
