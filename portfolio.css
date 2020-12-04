@@ -5,7 +5,7 @@
     }
 
     body {
-        background-image: url('Light-Gray-Background.jpg');
+        background-image: url('./Assets/Light-Gray-Background.jpg');
         }
 
 
@@ -16,6 +16,7 @@
 footer {
     margin-top: 50px;
 }
+
    
 @media screen and (max-width: 575px) {
 

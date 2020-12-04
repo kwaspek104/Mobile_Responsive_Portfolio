@@ -4,12 +4,9 @@
     text-emphasis: bold;
     }
 
-
-    body {
-        background-image: url('Light-Gray-Background.jpg');
+body {
+    background-image: url('./Assets/Light-Gray-Background.jpg');
         }
-
-
 
 @media screen and (max-width: 575px) {
 
