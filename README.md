@@ -16,7 +16,7 @@ https://kwaspek104.github.io/Mobile_Responsive_Portfolio/index.html
 
 ## Image 
 
-![](Example_Screenshot.jpg)
+![](./Assets/Example_Screenshot.jpg)
 
 ## Liscence 
 
